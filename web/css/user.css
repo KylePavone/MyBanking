@@ -1,0 +1,71 @@
+
+.bank__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bank__title {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.bank__list {
+    padding-top: 40px;
+    list-style-type: none;
+}
+.bank__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+.bank__link {
+    text-decoration: underline;
+    color: #000;
+    font-size: 20px;
+}
+
+.user__accounts {
+    padding-top: 60px;
+}
+.user__body {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.user__list {
+    padding-top: 20px;
+    list-style-type: none;
+}
+.user__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.user__link {
+    text-decoration: underline;
+    color: #000;
+    font-size: 18px;
+}
+.create-account {
+    padding-bottom: 30px;
+}
+.links__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.operations__info-account {
+    padding-top: 15px;
+    font-size: 24px;
+    color: rgb(33, 49, 73);
+    font-weight: 700;
+}
+.operations__list {
+    list-style-type: none;
+    padding-top: 40px;
+}
+.operations__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+.operations__sum {
+    color: rgb(30, 31, 38);
+}
